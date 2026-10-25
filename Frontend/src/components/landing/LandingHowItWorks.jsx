@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageSquareCode, Brain, CheckSquare, Compass } from 'lucide-react';
+import { MessageSquareCode, Brain, CheckSquare, Users } from 'lucide-react';
 
 export default function LandingHowItWorks() {
   const steps = [
@@ -18,14 +18,14 @@ export default function LandingHowItWorks() {
     {
       num: "03",
       title: "Test",
-      desc: "Take an instant 1-click 3-question formative test designed to expose conceptual blind spots.",
+      desc: "Take an instant, logic-based diagnostic quiz to assess core understanding and pinpoint specific knowledge gaps.",
       icon: CheckSquare,
     },
     {
       num: "04",
-      title: "Learn",
-      desc: "If score < 67%, unlock a tailored 3-step learning path + 1-click retest to lock in mastery.",
-      icon: Compass,
+      title: "Mentor",
+      desc: "If concepts remain unclear after testing, get instantly matched with an expert mentor for 1-on-1 personalized guidance.",
+      icon: Users,
     },
   ];
 
